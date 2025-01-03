@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.testimonial-carousel .carousel-item 
+{
+    padding: 20px;
+}
+
+.testimonial-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial-content {
+    padding: 15px;
+    flex: 1;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.testimonial-college {
+    color: #6c757d;
+    margin: 5px 0 15px;
+}
+
+.wcu-card {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.wcu-card:hover
+{
+    transform: translateY(-5px);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.community-banner {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+    position: relative;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.community-title {
+    font-size: 3rem;
+}
+
+.social-icons .social-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.social-icons .social-item a {
+    font-size: 2rem;
+    display: block;
+    color: inherit;
+    /* Inherit color from parent */
+    transition: color 0.3s;
+}
+
+.social-icons .social-item a:hover {
+    opacity: 0.8;
+}
+
+.social-icons .fa-facebook {
+    color: #3b5998;
+}
+
+.social-icons .fa-instagram {
+    color: #e1306c;
+}
+
+.social-icons .fa-whatsapp {
+    color: #25D366;
+}
+
+.social-icons .fa-telegram {
+    color: #0088cc;
+}
+
+.social-icons .fa-discord {
+    color: #7289da;
+}
+
+.social-icons .fa-youtube {
+    color: #ff0000;
+}
+
+.followers {
+    font-size: 1rem;
+    color: #ccc;
+}
+
